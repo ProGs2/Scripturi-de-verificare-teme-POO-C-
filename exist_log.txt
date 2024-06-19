@@ -1,0 +1,12 @@
+Numele claselor din temaPOO-proiect C++ au fost extrase cu succes in fisierul extracted_file_with_classes.txt
+Clasa BazaDeDate.h exista in fisierul extracted_file_with_classes.txt
+Clasa ExceptionClass.h exista in fisierul extracted_file_with_classes.txt
+Clasa IBazaDeDate.h exista in fisierul extracted_file_with_classes.txt
+Clasa IServerManagement.h exista in fisierul extracted_file_with_classes.txt
+Clasa IUtilizator.h exista in fisierul extracted_file_with_classes.txt
+Clasa Logger.h exista in fisierul extracted_file_with_classes.txt
+Clasa md5.h exista in fisierul extracted_file_with_classes.txt
+Clasa ServerManagement.h exista in fisierul extracted_file_with_classes.txt
+Clasa Utilizator.h exista in fisierul extracted_file_with_classes.txt
+Exit status al check_existence_of_classes.sh este 1
+check_existence_of_classes.sh executat cu succes!

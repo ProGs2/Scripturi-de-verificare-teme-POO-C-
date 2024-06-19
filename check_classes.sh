@@ -4,6 +4,9 @@
 result=`find ~ -name $2`
 : > "$2"      #in result.txt
 
+#Clear the exist_log.txt
+: > "exist_log.txt"     #in exist_log.txt
+
 # Function to check include guards in a file
 check_include_guards() {
   local file=$1
@@ -41,10 +44,10 @@ real_path=$(realpath file_with_classes.txt)
 input_file=$(cat "$real_path")
 
 #generate extracted_file_with_classes.txt
-./getClasses.sh $1
+./getClasses.sh $1 "exist_log.txt"
 
 #Check the files form temaPOO
-./verify_cpp.sh
+./verify_cpp.sh "exist_log.txt"
 
 # Iterate through each filename listed in the input file
 for name in $input_file; do

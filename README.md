@@ -26,5 +26,5 @@ Scripturi de “verificare” teme POO (C++)
 	-verifica daca au guards
 	-nr. de definitii de clase
 	-nr. de metode
-3)Inserare rezultate in result.txt a verificarii
-4)va urma
+3)Inserare rezultate in result.txt + exist_log.txt a verificarii 
+4)Afisare ierarhie clase
