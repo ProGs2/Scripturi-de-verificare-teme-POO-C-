@@ -1,0 +1,36 @@
+Checking file: BazaDeDate.h
+Include guards are missing in /home/razvan/Desktop/AppPOO/BazaDeDate.h
+Number of class definitions in /home/razvan/Desktop/AppPOO/BazaDeDate.h: 1
+Number of methods in /home/razvan/Desktop/AppPOO/BazaDeDate.h: 60
+Checking file: ExceptionClass.h
+Include guards are missing in /home/razvan/Desktop/AppPOO/ExceptionClass.h
+Number of class definitions in /home/razvan/Desktop/AppPOO/ExceptionClass.h: 1
+Number of methods in /home/razvan/Desktop/AppPOO/ExceptionClass.h: 1
+Checking file: IBazaDeDate.h
+Include guards are missing in /home/razvan/Desktop/AppPOO/IBazaDeDate.h
+Number of class definitions in /home/razvan/Desktop/AppPOO/IBazaDeDate.h: 1
+Number of methods in /home/razvan/Desktop/AppPOO/IBazaDeDate.h: 0
+Checking file: IServerManagement.h
+Include guards are missing in /home/razvan/Desktop/AppPOO/IServerManagement.h
+Number of class definitions in /home/razvan/Desktop/AppPOO/IServerManagement.h: 1
+Number of methods in /home/razvan/Desktop/AppPOO/IServerManagement.h: 0
+Checking file: IUtilizator.h
+Include guards are missing in /home/razvan/Desktop/AppPOO/IUtilizator.h
+Number of class definitions in /home/razvan/Desktop/AppPOO/IUtilizator.h: 1
+Number of methods in /home/razvan/Desktop/AppPOO/IUtilizator.h: 0
+Checking file: Logger.h
+Include guards are missing in /home/razvan/Desktop/AppPOO/Logger.h
+Number of class definitions in /home/razvan/Desktop/AppPOO/Logger.h: 1
+Number of methods in /home/razvan/Desktop/AppPOO/Logger.h: 0
+Checking file: md5.h
+Include guards are present in /home/razvan/Desktop/AppPOO/md5.h
+Number of class definitions in /home/razvan/Desktop/AppPOO/md5.h: 1
+Number of methods in /home/razvan/Desktop/AppPOO/md5.h: 5
+Checking file: ServerManagement.h
+Include guards are missing in /home/razvan/Desktop/AppPOO/ServerManagement.h
+Number of class definitions in /home/razvan/Desktop/AppPOO/ServerManagement.h: 1
+Number of methods in /home/razvan/Desktop/AppPOO/ServerManagement.h: 42
+Checking file: Utilizator.h
+Include guards are missing in /home/razvan/Desktop/AppPOO/Utilizator.h
+Number of class definitions in /home/razvan/Desktop/AppPOO/Utilizator.h: 1
+Number of methods in /home/razvan/Desktop/AppPOO/Utilizator.h: 0

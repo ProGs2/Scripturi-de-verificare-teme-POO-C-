@@ -12,3 +12,19 @@ Scripturi de “verificare” teme POO (C++)
 	-check_existence_of_classes.sh care verifica daca fisierele file_with_classes.txt este in concordanta cu extracted_file_with_classes
 	-getClasses care populeaza fisierul extracted_file_with_classes
 	-verify_cpp.sh care verifica succesul scriptului check_existence_of_classes.sh
+
+#19.06.2024
+-update-uri de toate felurile :)
+						OBIECTIVE
+1)Verificare logica clase
+	-file_with_classes.txt contine denumirile claselor care ar trebui sa fie continute in temaPOO
+	-extracted_files_with_classes.txt este generat si contine denumirile claselor din temaPOO
+	-scriptul getClasses.sh genereaza fisierul extracted_files_with_classes.txt
+	-scriptul check_existence_of_classes.sh verifica daca file_with_classes.txt si extracted_files_with_classes.txt contin aceleasi denumiri
+	-scriptul verify_cpp.sh verifica daca check_existence_of_classes.sh returneaza 1(clasele exista)
+2)Verificare elemente clase:
+	-verifica daca au guards
+	-nr. de definitii de clase
+	-nr. de metode
+3)Inserare rezultate in result.txt a verificarii
+4)va urma

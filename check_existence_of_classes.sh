@@ -1,6 +1,4 @@
 #!/bin/bash
-real_path=`realpath getClasses.sh`
-bash "$real_path"  #executare bash care sa gaseasca clasele din proiect
 input_file=`cat file_with_classes.txt`
 other_file=`cat extracted_file_with_classes.txt`
 for name in $input_file
