@@ -35,6 +35,20 @@ count_methods() {
   echo "Number of methods in $file: $method_count" >> "$result"
 }
 
+# Function to check for syntax errors in a header file
+check_syntax_errors() {
+  local file=$1
+  #g++ -fsyntax-only "$file"
+  g++ -fsyntax-only "$file" >> "$result" 2>&1
+  if [ $? -eq 0 ]; then
+    echo "Syntax is correct in $file"
+    echo "Syntax is correct in $file" >> "$result"
+  else
+    echo "Syntax errors found in $file. Check $result for details."
+    echo "Syntax errors found in $file. Check $result for details." >> "$result"
+  fi
+}
+
 # Initialize counters
 total_methods=0
 implemented_methods=0
@@ -60,9 +74,10 @@ for name in $input_file; do
     check_include_guards "$path_input_file"
     count_class_definitions "$path_input_file"
     count_methods "$path_input_file"
+    check_syntax_errors "$path_input_file"
   else
     echo "File $name not found in ~"
     echo "File $name not found in ~" >> "$result"
   fi
 done
-
+exit 111

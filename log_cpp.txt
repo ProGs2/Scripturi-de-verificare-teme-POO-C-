@@ -1,0 +1,74 @@
+In file included from /home/razvan/Desktop/AppPOO/BazaDeDate.h:2,
+                 from /home/razvan/Desktop/AppPOO/BazaDeDate.cpp:1:
+/home/razvan/Desktop/AppPOO/IBazaDeDate.h:3:10: fatal error: windows.h: No such file or directory
+    3 | #include <windows.h>
+      |          ^~~~~~~~~~~
+compilation terminated.
+Syntax errors found in /home/razvan/Desktop/AppPOO/BazaDeDate.cpp
+Number of class definitions in /home/razvan/Desktop/AppPOO/BazaDeDate.cpp: 0
+Number of methods in BazaDeDate.cpp: 0
+Include guards are missing in BazaDeDate.h
+Syntax is correct in /home/razvan/Desktop/AppPOO/ExceptionClass.cpp
+Number of class definitions in /home/razvan/Desktop/AppPOO/ExceptionClass.cpp: 0
+Number of methods in ExceptionClass.cpp: 0
+Include guards are missing in ExceptionClass.h
+In file included from /home/razvan/Desktop/AppPOO/IBazaDeDate.cpp:1:
+/home/razvan/Desktop/AppPOO/IBazaDeDate.h:3:10: fatal error: windows.h: No such file or directory
+    3 | #include <windows.h>
+      |          ^~~~~~~~~~~
+compilation terminated.
+Syntax errors found in /home/razvan/Desktop/AppPOO/IBazaDeDate.cpp
+Number of class definitions in /home/razvan/Desktop/AppPOO/IBazaDeDate.cpp: 0
+Number of methods in IBazaDeDate.cpp: 0
+Include guards are missing in IBazaDeDate.h
+Syntax is correct in /home/razvan/Desktop/AppPOO/IServerManagement.cpp
+Number of class definitions in /home/razvan/Desktop/AppPOO/IServerManagement.cpp: 0
+Number of methods in IServerManagement.cpp: 0
+Include guards are missing in IServerManagement.h
+In file included from /home/razvan/Desktop/AppPOO/IUtilizator.cpp:1:
+/home/razvan/Desktop/AppPOO/IUtilizator.h:3:10: fatal error: windows.h: No such file or directory
+    3 | #include <windows.h>
+      |          ^~~~~~~~~~~
+compilation terminated.
+Syntax errors found in /home/razvan/Desktop/AppPOO/IUtilizator.cpp
+Number of class definitions in /home/razvan/Desktop/AppPOO/IUtilizator.cpp: 0
+Number of methods in IUtilizator.cpp: 0
+Include guards are missing in IUtilizator.h
+Syntax is correct in /home/razvan/Desktop/AppPOO/Logger.cpp
+Number of class definitions in /home/razvan/Desktop/AppPOO/Logger.cpp: 0
+Number of methods in Logger.cpp: 0
+In file included from /home/razvan/Desktop/AppPOO/BazaDeDate.h:2,
+                 from /home/razvan/Desktop/AppPOO/main.cpp:2:
+/home/razvan/Desktop/AppPOO/IBazaDeDate.h:3:10: fatal error: windows.h: No such file or directory
+    3 | #include <windows.h>
+      |          ^~~~~~~~~~~
+compilation terminated.
+Syntax errors found in /home/razvan/Desktop/AppPOO/main.cpp
+Number of class definitions in /home/razvan/Desktop/AppPOO/main.cpp: 0
+Number of methods in main.cpp: 2
+Include guards are missing in BazaDeDate.h
+Syntax is correct in /home/razvan/Desktop/AppPOO/md5.cpp
+Number of class definitions in /home/razvan/Desktop/AppPOO/md5.cpp: 0
+Number of methods in md5.cpp: 0
+Include guards are present in md5.h
+In file included from /home/razvan/Desktop/AppPOO/Utilizator.h:2,
+                 from /home/razvan/Desktop/AppPOO/ServerManagement.h:6,
+                 from /home/razvan/Desktop/AppPOO/ServerManagement.cpp:1:
+/home/razvan/Desktop/AppPOO/IUtilizator.h:3:10: fatal error: windows.h: No such file or directory
+    3 | #include <windows.h>
+      |          ^~~~~~~~~~~
+compilation terminated.
+Syntax errors found in /home/razvan/Desktop/AppPOO/ServerManagement.cpp
+Number of class definitions in /home/razvan/Desktop/AppPOO/ServerManagement.cpp: 0
+Number of methods in ServerManagement.cpp: 0
+Include guards are missing in ServerManagement.h
+In file included from /home/razvan/Desktop/AppPOO/Utilizator.h:2,
+                 from /home/razvan/Desktop/AppPOO/Utilizator.cpp:1:
+/home/razvan/Desktop/AppPOO/IUtilizator.h:3:10: fatal error: windows.h: No such file or directory
+    3 | #include <windows.h>
+      |          ^~~~~~~~~~~
+compilation terminated.
+Syntax errors found in /home/razvan/Desktop/AppPOO/Utilizator.cpp
+Number of class definitions in /home/razvan/Desktop/AppPOO/Utilizator.cpp: 0
+Number of methods in Utilizator.cpp: 0
+Include guards are missing in Utilizator.h

@@ -3,7 +3,7 @@ Scripturi de “verificare” teme POO (C++)
 #ceva update
 # 17.06.2024 am modificat readme
 
-#18.06.2024
+# 18.06.2024
 -m-am documentat in privinta proiectului pe care trebuie sa il produc
 -am adaugat in ~/Desktop folderul cu temaPOO necesar proiectului
 -am creeat un fisierul file_with_classes.txt, fisier care ajuta la verificarea claselor existente in temaPOO
@@ -13,7 +13,7 @@ Scripturi de “verificare” teme POO (C++)
 	-getClasses care populeaza fisierul extracted_file_with_classes
 	-verify_cpp.sh care verifica succesul scriptului check_existence_of_classes.sh
 
-#19.06.2024
+# 19.06.2024
 -update-uri de toate felurile :)
 						OBIECTIVE
 1)Verificare logica clase
@@ -28,3 +28,10 @@ Scripturi de “verificare” teme POO (C++)
 	-nr. de metode
 3)Inserare rezultate in result.txt + exist_log.txt a verificarii 
 4)Afisare ierarhie clase
+# 20.06.2024
+-acum verific si fisierele .cpp pe langa cele .h
+-am creeat un script care sa inglobeze toate operatiunile de pana acum de verificare temaPOO:
+-alte update-uri
+
+
+

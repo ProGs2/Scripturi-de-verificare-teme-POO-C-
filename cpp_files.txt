@@ -1,0 +1,10 @@
+BazaDeDate.cpp
+ExceptionClass.cpp
+IBazaDeDate.cpp
+IServerManagement.cpp
+IUtilizator.cpp
+Logger.cpp
+main.cpp
+md5.cpp
+ServerManagement.cpp
+Utilizator.cpp
