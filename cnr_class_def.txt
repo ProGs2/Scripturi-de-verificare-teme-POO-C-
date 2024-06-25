@@ -1,0 +1,10 @@
+Number of class definitions in /home/razvan/Desktop/AppPOO/BazaDeDate.cpp: 0
+Number of class definitions in /home/razvan/Desktop/AppPOO/ExceptionClass.cpp: 0
+Number of class definitions in /home/razvan/Desktop/AppPOO/IBazaDeDate.cpp: 0
+Number of class definitions in /home/razvan/Desktop/AppPOO/IServerManagement.cpp: 0
+Number of class definitions in /home/razvan/Desktop/AppPOO/IUtilizator.cpp: 0
+Number of class definitions in /home/razvan/Desktop/AppPOO/Logger.cpp: 0
+Number of class definitions in /home/razvan/Desktop/AppPOO/main.cpp: 0
+Number of class definitions in /home/razvan/Desktop/AppPOO/md5.cpp: 0
+Number of class definitions in /home/razvan/Desktop/AppPOO/ServerManagement.cpp: 0
+Number of class definitions in /home/razvan/Desktop/AppPOO/Utilizator.cpp: 0

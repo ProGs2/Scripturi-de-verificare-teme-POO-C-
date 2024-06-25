@@ -1,0 +1,9 @@
+Include guards are missing in BazaDeDate.h
+Include guards are missing in ExceptionClass.h
+Include guards are missing in IBazaDeDate.h
+Include guards are missing in IServerManagement.h
+Include guards are missing in IUtilizator.h
+Include guards are missing in BazaDeDate.h
+Include guards are present in md5.h
+Include guards are missing in ServerManagement.h
+Include guards are missing in Utilizator.h

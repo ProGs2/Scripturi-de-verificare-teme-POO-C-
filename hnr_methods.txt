@@ -1,0 +1,9 @@
+Number of methods in /home/razvan/Desktop/AppPOO/BazaDeDate.h: 60
+Number of methods in /home/razvan/Desktop/AppPOO/ExceptionClass.h: 1
+Number of methods in /home/razvan/Desktop/AppPOO/IBazaDeDate.h: 0
+Number of methods in /home/razvan/Desktop/AppPOO/IServerManagement.h: 0
+Number of methods in /home/razvan/Desktop/AppPOO/IUtilizator.h: 0
+Number of methods in /home/razvan/Desktop/AppPOO/Logger.h: 0
+Number of methods in /home/razvan/Desktop/AppPOO/md5.h: 5
+Number of methods in /home/razvan/Desktop/AppPOO/ServerManagement.h: 42
+Number of methods in /home/razvan/Desktop/AppPOO/Utilizator.h: 0

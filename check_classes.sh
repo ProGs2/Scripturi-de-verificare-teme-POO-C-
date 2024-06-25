@@ -1,5 +1,14 @@
 #!/bin/bash
 
+#Clear hnr_methods.txt
+: > "hnr_methods.txt"
+
+#Clear hnr_class_def.txt
+: > "hnr_class_def.txt"
+
+#Clear hguards.txt
+: > "hguards.txt"
+
 #Clear the result.txt
 result=`find ~ -name $2`
 : > "$2"      #in result.txt
@@ -12,10 +21,10 @@ check_include_guards() {
   local file=$1
   if grep -q "#ifndef" "$file" && grep -q "#define" "$file" && grep -q "#endif" "$file"; then
     echo "Include guards are present in $file"
-    echo "Include guards are present in $file" >> "$result"
+    echo "Include guards are present in $file" >> "hguards.txt"
   else
     echo "Include guards are missing in $file"
-    echo "Include guards are missing in $file" >> "$result"
+    echo "Include guards are missing in $file" >> "hguards.txt"
   fi
 }
 
@@ -24,7 +33,7 @@ count_class_definitions() {
   local file=$1
   local class_count=$(grep -c "class " "$file")
   echo "Number of class definitions in $file: $class_count"
-  echo "Number of class definitions in $file: $class_count" >> "$result"
+  echo "Number of class definitions in $file: $class_count" >> "hnr_class_def.txt"
 }
 
 # Function to count the number of methods in a class
@@ -32,7 +41,7 @@ count_methods() {
   local file=$1
   local method_count=$(grep -c "();" "$file")
   echo "Number of methods in $file: $method_count"
-  echo "Number of methods in $file: $method_count" >> "$result"
+  echo "Number of methods in $file: $method_count" >> "hnr_methods.txt"
 }
 
 # Function to check for syntax errors in a header file

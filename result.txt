@@ -1,7 +1,4 @@
 Checking file: BazaDeDate.h
-Include guards are missing in /home/razvan/Desktop/AppPOO/BazaDeDate.h
-Number of class definitions in /home/razvan/Desktop/AppPOO/BazaDeDate.h: 1
-Number of methods in /home/razvan/Desktop/AppPOO/BazaDeDate.h: 60
 /home/razvan/Desktop/AppPOO/BazaDeDate.h:1:6: warning: #pragma once in main file
     1 | ﻿#pragma once
       |      ^~~~
@@ -12,17 +9,11 @@ In file included from /home/razvan/Desktop/AppPOO/BazaDeDate.h:2:
 compilation terminated.
 Syntax errors found in /home/razvan/Desktop/AppPOO/BazaDeDate.h. Check /home/razvan/Scripturi-de-verificare-teme-POO-C-/result.txt for details.
 Checking file: ExceptionClass.h
-Include guards are missing in /home/razvan/Desktop/AppPOO/ExceptionClass.h
-Number of class definitions in /home/razvan/Desktop/AppPOO/ExceptionClass.h: 1
-Number of methods in /home/razvan/Desktop/AppPOO/ExceptionClass.h: 1
 /home/razvan/Desktop/AppPOO/ExceptionClass.h:1:9: warning: #pragma once in main file
     1 | #pragma once
       |         ^~~~
 Syntax is correct in /home/razvan/Desktop/AppPOO/ExceptionClass.h
 Checking file: IBazaDeDate.h
-Include guards are missing in /home/razvan/Desktop/AppPOO/IBazaDeDate.h
-Number of class definitions in /home/razvan/Desktop/AppPOO/IBazaDeDate.h: 1
-Number of methods in /home/razvan/Desktop/AppPOO/IBazaDeDate.h: 0
 /home/razvan/Desktop/AppPOO/IBazaDeDate.h:1:9: warning: #pragma once in main file
     1 | #pragma once
       |         ^~~~
@@ -32,17 +23,11 @@ Number of methods in /home/razvan/Desktop/AppPOO/IBazaDeDate.h: 0
 compilation terminated.
 Syntax errors found in /home/razvan/Desktop/AppPOO/IBazaDeDate.h. Check /home/razvan/Scripturi-de-verificare-teme-POO-C-/result.txt for details.
 Checking file: IServerManagement.h
-Include guards are missing in /home/razvan/Desktop/AppPOO/IServerManagement.h
-Number of class definitions in /home/razvan/Desktop/AppPOO/IServerManagement.h: 1
-Number of methods in /home/razvan/Desktop/AppPOO/IServerManagement.h: 0
 /home/razvan/Desktop/AppPOO/IServerManagement.h:1:9: warning: #pragma once in main file
     1 | #pragma once
       |         ^~~~
 Syntax is correct in /home/razvan/Desktop/AppPOO/IServerManagement.h
 Checking file: IUtilizator.h
-Include guards are missing in /home/razvan/Desktop/AppPOO/IUtilizator.h
-Number of class definitions in /home/razvan/Desktop/AppPOO/IUtilizator.h: 1
-Number of methods in /home/razvan/Desktop/AppPOO/IUtilizator.h: 0
 /home/razvan/Desktop/AppPOO/IUtilizator.h:1:9: warning: #pragma once in main file
     1 | #pragma once
       |         ^~~~
@@ -52,9 +37,6 @@ Number of methods in /home/razvan/Desktop/AppPOO/IUtilizator.h: 0
 compilation terminated.
 Syntax errors found in /home/razvan/Desktop/AppPOO/IUtilizator.h. Check /home/razvan/Scripturi-de-verificare-teme-POO-C-/result.txt for details.
 Checking file: Logger.h
-Include guards are missing in /home/razvan/Desktop/AppPOO/Logger.h
-Number of class definitions in /home/razvan/Desktop/AppPOO/Logger.h: 1
-Number of methods in /home/razvan/Desktop/AppPOO/Logger.h: 0
 /home/razvan/Desktop/AppPOO/Logger.h:2:9: warning: #pragma once in main file
     2 | #pragma once
       |         ^~~~
@@ -73,14 +55,8 @@ Number of methods in /home/razvan/Desktop/AppPOO/Logger.h: 0
       |               fopen64
 Syntax errors found in /home/razvan/Desktop/AppPOO/Logger.h. Check /home/razvan/Scripturi-de-verificare-teme-POO-C-/result.txt for details.
 Checking file: md5.h
-Include guards are present in /home/razvan/Desktop/AppPOO/md5.h
-Number of class definitions in /home/razvan/Desktop/AppPOO/md5.h: 1
-Number of methods in /home/razvan/Desktop/AppPOO/md5.h: 5
 Syntax is correct in /home/razvan/Desktop/AppPOO/md5.h
 Checking file: ServerManagement.h
-Include guards are missing in /home/razvan/Desktop/AppPOO/ServerManagement.h
-Number of class definitions in /home/razvan/Desktop/AppPOO/ServerManagement.h: 1
-Number of methods in /home/razvan/Desktop/AppPOO/ServerManagement.h: 42
 /home/razvan/Desktop/AppPOO/ServerManagement.h:2:9: warning: #pragma once in main file
     2 | #pragma once
       |         ^~~~
@@ -92,9 +68,6 @@ In file included from /home/razvan/Desktop/AppPOO/Utilizator.h:2,
 compilation terminated.
 Syntax errors found in /home/razvan/Desktop/AppPOO/ServerManagement.h. Check /home/razvan/Scripturi-de-verificare-teme-POO-C-/result.txt for details.
 Checking file: Utilizator.h
-Include guards are missing in /home/razvan/Desktop/AppPOO/Utilizator.h
-Number of class definitions in /home/razvan/Desktop/AppPOO/Utilizator.h: 1
-Number of methods in /home/razvan/Desktop/AppPOO/Utilizator.h: 0
 /home/razvan/Desktop/AppPOO/Utilizator.h:1:9: warning: #pragma once in main file
     1 | #pragma once
       |         ^~~~

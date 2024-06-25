@@ -1,0 +1,9 @@
+Number of class definitions in /home/razvan/Desktop/AppPOO/BazaDeDate.h: 1
+Number of class definitions in /home/razvan/Desktop/AppPOO/ExceptionClass.h: 1
+Number of class definitions in /home/razvan/Desktop/AppPOO/IBazaDeDate.h: 1
+Number of class definitions in /home/razvan/Desktop/AppPOO/IServerManagement.h: 1
+Number of class definitions in /home/razvan/Desktop/AppPOO/IUtilizator.h: 1
+Number of class definitions in /home/razvan/Desktop/AppPOO/Logger.h: 1
+Number of class definitions in /home/razvan/Desktop/AppPOO/md5.h: 1
+Number of class definitions in /home/razvan/Desktop/AppPOO/ServerManagement.h: 1
+Number of class definitions in /home/razvan/Desktop/AppPOO/Utilizator.h: 1

@@ -1,5 +1,14 @@
 #!/bin/bash
 
+#Clear cguards.txt
+: > "cguards.txt"
+
+#Clear cnr_class_def.txt
+: > "cnr_class_def.txt"
+
+#Clear cnr_methods.txt
+: > "cnr_methods.txt"
+
 #Initialize file
 : > "log_cpp.txt"    #clear log_cpp.txt
 
@@ -22,7 +31,7 @@ count_class_definitions() {
   local file=`find ~ -name $1`
   local class_count=$(grep -c "class " "$file")
   echo "Number of class definitions in $file: $class_count"
-  echo "Number of class definitions in $file: $class_count" >> "log_cpp.txt"
+  echo "Number of class definitions in $file: $class_count" >> "cnr_class_def.txt"
 }
 
 # Function to count the number of methods
@@ -30,7 +39,7 @@ count_methods() {
   local file=`find ~ -name $1`
   local method_count=$(cat $file|grep -c "();")
   echo "Number of methods in $1: $method_count"
-  echo "Number of methods in $1: $method_count" >> "log_cpp.txt"
+  echo "Number of methods in $1: $method_count" >> "cnr_methods.txt"
 }
 
 # Function to check if header files included in .cpp files have include guards
@@ -42,10 +51,10 @@ check_include_guards() {
     if [[ -n $value ]]; then
       if grep -q "#ifndef" "$value" && grep -q "#define" "$value" && grep -q "#endif" "$value"; then
         echo "Include guards are present in $header"
-        echo "Include guards are present in $header" >> "log_cpp.txt"
+        echo "Include guards are present in $header" >> "cguards.txt"
       else
         echo "Include guards are missing in $header"
-        echo "Include guards are missing in $header" >> "log_cpp.txt"
+        echo "Include guards are missing in $header" >> "cguards.txt"
       fi
     else
       echo "Header file $header included in $file not found"
@@ -68,7 +77,7 @@ cpp_files=$(cat cpp_files.txt)
 for cpp_file in $cpp_files; do
     # Perform checks
     check_syntax_errors "$cpp_file"
-    count_class_definitions "$cpp_file"
+    count_class_definitions "$cpp_file"	
     count_methods "$cpp_file"
     check_include_guards "$cpp_file"
 done

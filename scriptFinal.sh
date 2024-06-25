@@ -3,14 +3,22 @@ display_menu() {
   echo "---------------------------------"
   echo "              Menu               "
   echo "---------------------------------"
-  echo "1. Verifica existenta fisierelor .h din temaPOO"
-  echo "2. Afiseaza informatii despre fisierle .h din temaPOO"
-  echo "3. Verifica existenta fisierelor .cpp din temaPOO"
-  echo "4. Afiseaza informatii despre fisierele .cpp din temaPOO"
-  echo "5. Afisare clase.cpp din temaPOO"
-  echo "6. Afisare clase.h din temaPOO"
-  echo "7. Afisare ierarhie clase din temaPOO"
-  echo "0. Exit"
+  echo "1. Afisare existenta fisiere .h din temaPOO"
+  echo "2. Afiseaza informatii de compilare despre fisierele .h din temaPOO"
+  echo "3. Afiseaza informatii despre existenta guards fisiere .h din temaPOO"
+  echo "4. Afiseaza informatii despre numarul de definitii de clase din fisierele .h din temaPOO"
+  echo "5. Afiseaza informati despre numarul de metode din fisierele .h din temaPOO"
+  echo "6. Afiseaza metodele fiecarui fisier .h din temaPOO"
+  echo "7. Afisare existenta fisiere .cpp din temaPOO"
+  echo "8. Afiseaza informatii de compilare fisierele .cpp din temaPOO"
+  echo "9. Afiseaza informatii despre existenta guards fisiere .h din temaPOO"
+  echo "10. Afiseaza informatii despre numarul de definitii de clase din fisierele .cpp din temaPOO"
+  echo "11. Afiseaza informati despre numarul de metode din fisierele .h din temaPOO"
+  echo "12. Afiseaza metodele fiecarui fisier .h din temaPOO"
+  echo "13. Afisare clase.cpp din temaPOO"
+  echo "14. Afisare clase.h din temaPOO"
+  echo "15. Afisare ierarhie clase din temaPOO"
+  echo "ALTCEVA. Exit"
   echo "---------------------------------"
 }
 
@@ -90,34 +98,76 @@ do
 		echo "File result.txt not found."
 	    fi
 	elif [[ "$option" == "3" ]]; then
+		find=`find ~ -name "hguards.txt"`
+		if [[ -n $find ]]; then
+			cat "$find"
+		else
+			echo "File hguards.txt does not exist!"
+		fi
+	elif [[ "$option" == "4" ]]; then
+		find=`find ~ -name "hnr_class_def.txt"`
+		if [[ -n $find ]]; then
+			cat "$find"
+		else
+			echo "File hnr_class_def.txt does not exist!"
+		fi
+	elif [[ "$option" == "5" ]]; then
+		find=`find ~ -name "hnr_methods.txt"`
+		if [[ -n $find ]]; then
+			cat "$find"
+		else
+			echo "File hnr_methods.txt does not exist!"
+		fi
+	elif [[ "$option" == "7" ]]; then
 	    find=$(find ~ -name "exist1_log.txt")
 	    if [[ -n $find ]]; then
 		cat "$find"
 	    else
 		echo "File exist_log1.txt not found."
 	    fi
-	elif [[ "$option" == "4" ]]; then
+	elif [[ "$option" == "8" ]]; then
 	    find=$(find ~ -name "log_cpp.txt")
 	    if [[ -n $find ]]; then
 		cat "$find"
 	    else
 		echo "File log_cpps.txt not found."
 	    fi
-	elif [[ "$option" == "5" ]]; then
+	elif [[ "$option" == "9" ]]; then
+	    find=$(find ~ -name "cguards.txt")
+	    if [[ -n $find ]]; then
+		cat "$find"
+	    else
+		echo "File cguards.txt not found."
+	    fi
+	elif [[ "$option" == "10" ]]; then
+	    find=$(find ~ -name "cnr_class_def.txt")
+	    if [[ -n $find ]]; then
+		cat "$find"
+	    else
+		echo "File cnr_class_def.txt not found."
+	    fi
+	elif [[ "$option" == "11" ]]; then
+	    find=$(find ~ -name "cnr_methods.txt")
+	    if [[ -n $find ]]; then
+		cat "$find"
+	    else
+		echo "File cnr_methods.txt not found."
+	    fi
+	elif [[ "$option" == "13" ]]; then
 		find=`find ~ -name "cpp_files.txt"`
 		if [[ -n $find ]];then
 		   	cat "$find"
 		else
 			echo "File cpp_files.txt not found."
 		fi
-	elif [[ "$option" == "6" ]];then
+	elif [[ "$option" == "14" ]];then
 		find=`find ~ -name "extracted_file_with_classes.txt"`
 		if [[ -n $find ]];then
 			cat $find
 		else
 			echo "File extracted_file_with_classes.txt not found"
 		fi
-	elif [[ "$option" == "7" ]];then
+	elif [[ "$option" == "15" ]];then
 		./printIerarhie.sh
 	else
 	    echo "Program terminat..."

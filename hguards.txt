@@ -1,0 +1,9 @@
+Include guards are missing in /home/razvan/Desktop/AppPOO/BazaDeDate.h
+Include guards are missing in /home/razvan/Desktop/AppPOO/ExceptionClass.h
+Include guards are missing in /home/razvan/Desktop/AppPOO/IBazaDeDate.h
+Include guards are missing in /home/razvan/Desktop/AppPOO/IServerManagement.h
+Include guards are missing in /home/razvan/Desktop/AppPOO/IUtilizator.h
+Include guards are missing in /home/razvan/Desktop/AppPOO/Logger.h
+Include guards are present in /home/razvan/Desktop/AppPOO/md5.h
+Include guards are missing in /home/razvan/Desktop/AppPOO/ServerManagement.h
+Include guards are missing in /home/razvan/Desktop/AppPOO/Utilizator.h
