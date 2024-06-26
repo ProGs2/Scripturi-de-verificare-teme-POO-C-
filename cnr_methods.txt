@@ -4,7 +4,7 @@ Number of methods in IBazaDeDate.cpp: 0
 Number of methods in IServerManagement.cpp: 0
 Number of methods in IUtilizator.cpp: 0
 Number of methods in Logger.cpp: 0
-Number of methods in main.cpp: 2
+Number of methods in main.cpp: 0
 Number of methods in md5.cpp: 0
 Number of methods in ServerManagement.cpp: 0
 Number of methods in Utilizator.cpp: 0

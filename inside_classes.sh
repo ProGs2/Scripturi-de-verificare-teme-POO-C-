@@ -1,5 +1,8 @@
 #!/bin/bash
 
+#Clear all_classes.txt
+: > "all_classes.txt"
+
 # Check if file_with_classes.txt exists
 if [ ! -f file_with_classes.txt ]; then
     echo "file_with_classes.txt not found!"
@@ -16,7 +19,7 @@ while IFS= read -r header; do
         # Use grep to find class definitions
         class_definitions=$(grep -E 'class' "$find_result"|cut -f2 -d' ')
         if [[ -n $class_definitions ]]; then
-            echo "$class_definitions"
+            echo "$class_definitions" >> "all_classes.txt" 
         else
             echo "No class definitions found."
         fi

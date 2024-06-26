@@ -32,7 +32,8 @@ Scripturi de “verificare” teme POO (C++)
 -acum verific si fisierele .cpp pe langa cele .h
 -am creeat un script care sa inglobeze toate operatiunile de pana acum de verificare temaPOO:
 -alte update-uri
-#25.06.2024
+# 25.06.2024
 -update-uri diverse
-
+# 26.06.2024
+-am finalizat runScript.sh cu tot cu update-uri
 

@@ -37,7 +37,7 @@ count_class_definitions() {
 # Function to count the number of methods
 count_methods() {
   local file=`find ~ -name $1`
-  local method_count=$(cat $file|grep -c "();")
+  local method_count=$(egrep -c ' \b(void|int|char|float|double|long|short|signed|unsigned|bool|wchar_t|std::vector|std::string|std::map|std::set|std::unordered_map|std::unordered_set|std::tuple|std::pair|std::list|std::deque|std::stack|std::queue|std::shared_ptr|std::unique_ptr|std::weak_ptr|std::function|std::optional|std::variant|std::array|std::initializer_list|std::regex|std::chrono::duration|std::chrono::time_point|std::wstring)\b [a-zA-Z0-9_]+\(' "$file")
   echo "Number of methods in $1: $method_count"
   echo "Number of methods in $1: $method_count" >> "cnr_methods.txt"
 }

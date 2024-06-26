@@ -18,6 +18,7 @@ display_menu() {
   echo "13. Afisare clase.cpp din temaPOO"
   echo "14. Afisare clase.h din temaPOO"
   echo "15. Afisare ierarhie clase din temaPOO"
+  echo "16. Afisare toate clasele existene din temaPOO"
   echo "ALTCEVA. Exit"
   echo "---------------------------------"
 }
@@ -118,6 +119,8 @@ do
 		else
 			echo "File hnr_methods.txt does not exist!"
 		fi
+	elif [[ "$option" == "6" ]]; then
+		./printMetode.sh file_with_classes.txt
 	elif [[ "$option" == "7" ]]; then
 	    find=$(find ~ -name "exist1_log.txt")
 	    if [[ -n $find ]]; then
@@ -153,6 +156,8 @@ do
 	    else
 		echo "File cnr_methods.txt not found."
 	    fi
+	elif [[ "$option" == "12" ]]; then
+	    ./printMetode.sh cpp_files.txt
 	elif [[ "$option" == "13" ]]; then
 		find=`find ~ -name "cpp_files.txt"`
 		if [[ -n $find ]];then
@@ -169,6 +174,13 @@ do
 		fi
 	elif [[ "$option" == "15" ]];then
 		./printIerarhie.sh
+	elif [[ "$option" == "16" ]];then
+		find=`find ~ -name "all_classes.txt"`
+		if [[ -n $find ]];then
+			cat $find
+		else
+			echo "File all_classes.txt not found"
+		fi
 	else
 	    echo "Program terminat..."
 	    exit 0
